@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'STIX Two Text', sans-serif; /* Fallback for better readability */
+    align-content: center;
+  }
+  
+  /* Container Styles */
+  .max-w-4xl {
+    align-content: center;
+    max-width: 1280px; /* Limits the maximum width */
+    margin-left: auto; /* Centers the container */
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: whitesmoke;
+    border-radius:1cm;
+  }
+  
+  
+  .p-4 {
+    padding: 1rem; /* Standard padding */
+  }
+  
+  .space-y-8 > *:not(:last-child) {
+    margin-bottom: 2rem; /* Space between child elements */
+  }
+  
+  /* Overview Section Styles */
+  .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #2d2d2d, #1a1a1a); /* Gradient background */
+  }
+  
+  .rounded-2xl {
+    border-radius: 1rem; /* Rounded corners */
+  }
+  
+  .shadow-xl {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .text-neutral-50 {
+    color: #121212; /* Light text color */
+  }
+  
+  /* Grid Styles */
+  .grid {
+    display: grid; /* Enable grid layout */
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, 1fr); /* 1 column layout */
+  }
+  
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr); /* 2 column layout for medium and larger screens */
+  }
+  
+  .gap-6 {
+    gap: 1.5rem; /* Space between grid items */
+  }
+  
+  /* Button Styles */
+  button {
+    cursor: pointer; /* Pointer cursor for buttons */
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem; /* Horizontal padding */
+    padding-right: 1.5rem;
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem; /* Vertical padding */
+    padding-bottom: 0.75rem;
+  }
+  
+  .transition-all {
+    transition: all 0.2s ease; /* Smooth transition for hover effects */
+  }
+  
+  .hover\:scale-105:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  /* Selected Day Button Styles */
+  .bg-neutral-800 {
+    background-color: #1e293b; /* Dark background for selected day */
+  }
+  
+  .text-white {
+    color: rgb(59, 59, 59); /* White text color */
+  }
+  
+  .bg-neutral-100 {
+    background-color: #f3f4f6; /* Light background for unselected days */
+  }
+  
+  .hover\:bg-neutral-200:hover {
+    background-color: #e5e7eb; /* Slightly darker on hover */
+  }
+  
+  /* Exercise Card Styles */
+  .border {
+    border: 1px solid #e5e7eb; /* Light border */
+  }
+  
+  .hover\:shadow-lg:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Shadow on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Stack items on small screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Two-column layout on larger screens */
+    }
+  }
+  
+  .mt-6 {
+    margin-top: 1.5rem; /* Margin top for spacing */
+  }
+  
+  /* Notes Styles */
+  .flex {
+    display: flex; /* Flexbox layout */
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .gap-2 {
+    gap: 0.5rem; /* Small gap between flex items */
+  }
+  
+  .text-neutral-700 {
+    color: #4b5563; /* Medium text color */
+  }
+  
+  .text-neutral-600 {
+    color: #6b7280; /* Slightly lighter text color */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem; /* Small rounded corners */
+  }
+  
+  .bg-neutral-50 {
+    background-color: #f9fafb; /* Very light background */
+  }
+  
+  /* Important Notes Section */
+  .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #f9fafb, #ffffff); /* Gradient background for notes */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Medium shadow */
+  }
+  
+  .border-neutral-200 {
+    border-color: #e5e7eb; /* Light border color */
+  }
